@@ -1,0 +1,19 @@
+{
+  "name": "Name",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Your Extension Description",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "http://127.0.0.1:5000/*",
+    "contextMenus",
+    "tabs"
+    
+  ]
+}
